@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+  <title>ESN Painting - Home</title>
+</head>
+<body>
+
+    <div class="top-box">
+        <a href="home.html">
+        <image src="esnlogo_nobackground.png" width="200px" height="150px"></image>
+        </a>
+    
+        <a href="https://www.facebook.com/p/ESN-Painting-LLC-100086603807623/">
+            <image src="facebook.png" width="20px" height="20px" style="position: relative; left: 20px;"></image>
+        </a>
+    
+        <a href="https://www.instagram.com/esnpainting/">
+            <image src="insta.png" width="20px" height="20px" style="position: relative; left: 23px;"></image>
+        </a>
+    </div>
+
+<br><br><br><Br><br><br><br><Br>
+
+<a href="home.html" style="text-decoration: none;" class="dropbtn">Home</a>
+
+<!--drop button menus-->
+<div class="dropdown">
+    <button style="position: relative; left: 15px;" class="dropbtn">What We Offer</button>
+    <div class="dropdown-content">
+        <a href="painting.html">Interior & Exterior Painting</a>
+        <a href="refinishing.html">Kitchen Cabinet Refinishing</a>
+        <a href="projects.html">Residential & Commercial Projects</a>
+        <a href="washing.html">Soft Wash & Power Wash</a>
+        <a href="staining.html">Deck Staining</a>
+        <a href="repairs.html">Small Handyman Repairs</a>
+    </div>
+</div>
+
+<div class="menu_button">
+    <a href="pricing.html" style="text-decoration: none; position: relative; left: 30px;" class="dropbtn">Pricing</a>
+</div>
+
+<div class="menu_button">
+    <a href="#" style="text-decoration: none; position: relative; left: 45px;" class="dropbtn">Contact Us</a>
+</div>
+
+<br><br>
+
+<div class="background">
+
+<div class="form_style">
+
+<h1>Contact Us</h1>
+
+<p>We'd love to hear from you! 
+    Whether you have questions or specific requests, feel free to reach out to us.<br><br>
+    Please fill out the form below and we will get back to you as soon as possible
+</p>
+
+    <form action="send_email.php" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <p>Which services are you interested in?</p>
+        <ul>
+            <li><input type="checkbox" id="painting" value="Painting">
+                <label for="painting">Interior & Exterior Painting</label></li>
+            <li><input type="checkbox" id="refinishing" value="Refinishing">
+                <label for="refinishing">Kitchen Cabinet Refinishing</label></li>
+            <li><input type="checkbox" id="projects" value="Projects">
+                <label for="projects">Residential & Commercial Projects</label></li>
+            <li><input type="checkbox" id="washing" value="Washing">
+                <label for="washing">Soft Wash & Power Wash</label></li>
+            <li><input type="checkbox" id="staining" value="Staining">
+                <label for="staining">Deck Staining</label></li>
+            <li><input type="checkbox" id="repairs" value="Repairs">
+                <label for="repairs">Small Handyman Repairs</label></li>
+        </ul>
+
+        <label for="comments">Comments</label><br>
+        <textarea id="comments" name="comments" rows="5" required></textarea><br><br>
+
+        <button class="submit_button" type="submit">Submit</button>
+    </form>
+    
+</div>
+
+    <!--phone number: 330-519-6925
+
+    <a href="#" style="text-decoration: none;">facebook link placeholder</a> &nbsp;
+    <a href="#" style="text-decoration: none;">instagram link placeholder</a>
+    -->
+</div>
+
+</body>
+</html>
